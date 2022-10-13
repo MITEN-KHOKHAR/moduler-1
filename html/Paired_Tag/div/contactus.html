@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        * 
+        { 
+            margin: 0 auto; 
+            padding: 0;
+        }
+        body 
+        {  
+         background-color: blanchedalmond;  
+        }
+        nav 
+        { 
+            width: 100%; 
+            height:auto; 
+            background-color: rgb(185, 0, 71); 
+            position: fixed;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+        }
+        nav ul li
+        {
+            border:0px solid black;
+            display:inline-block;
+            padding-top: 10px;
+            padding-bottom:10px;
+        }     
+        nav a 
+        {
+            color:white;
+            text-decoration: none;
+            list-style-type: none;
+            margin: 10px 10px;
+            padding: 5px;            
+        }
+        nav a:hover
+        {        
+            background-color:rgb(97, 0, 37); 
+            padding-top: 10px;
+            padding-bottom:10px;                   
+        }
+        h1 
+        {
+            color: rgb(97, 0, 37); 
+            font-size: 60px;
+        } 
+        .cntbx 
+        {
+            margin:auto;
+            border: 0px solid black;
+            width:70%;
+        }     
+        .lftbx 
+        {
+            border:0px solid gray;
+            background-color: #610025;
+            padding: 10px;
+            width: 47%;
+            height:300px;
+            float: left;
+            color:white;            
+        }
+        .rgtbx 
+        {
+            border:0px solid gray;
+            background-color: #610025;
+            padding: 10px;
+            width: 47%;
+            height:300px;
+            float: right; 
+            color:white;                 
+        }
+        .lftbx, h2, h3  
+        {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            text-align: center;
+            line-height: 30px;
+        }
+        .rgtbx, h2 
+        {
+            margin-top: 10px;
+            margin-bottom: 5px; 
+            text-align: center;                           
+        }
+        input,textarea 
+        {
+            width: 70%;
+            height: auto;
+            padding: 3px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        input[type="submit"]
+        {
+            border: 0px solid black;            
+            width: 35.5%;
+            height: auto;
+            padding: 5px;
+            background-color: lightgreen;
+        }
+        input[type="reset"]
+        {
+            border: 0px solid black;
+            width: 35.5%;
+            height: auto;
+            padding: 5px;
+            background-color: rgb(255, 0, 0);
+            color: white;
+        }
+        .clearfix 
+        {
+            clear: both;
+        }          
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li style="background-color:rgb(97, 0, 37) ;"><a href="nav.html">My Shopping Site.com</a></li>
+            <li><a href="nav.html">Home</a></li>
+            <li><a href="kidsProducts.html">Kids Products</a></li>
+            <li><a href="menProducts.html">Men Products</a></li>
+            <li><a href="womenProducts.html">Women Products</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </nav>
+
+    <h1 align="center" style="padding-top:55px; padding-bottom:15px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Contact with us</h1>
+    <hr style="border: 2px solid rgb(97, 0, 37);width:50%;margin-bottom: 20px;">
+
+    <div class="cntbx">
+        <div class="lftbx">
+            <h2 style="font-family:Arial, Helvetica, sans-serif;">Contact with Address</h2>
+            <hr style="width:70%;margin-top:10px;margin-bottom: 10px;">
+            <p style="font-family:Arial, Helvetica, sans-serif;"><b>Company Name :</b> Design Visionary Graphic</p>
+            <p style="font-family:Arial, Helvetica, sans-serif;"><b>Mobile  :</b> 7096 46 6968</p>
+            <p style="font-family:Arial, Helvetica, sans-serif;"><b>Fax Number :</b> (281) -685987 </p>
+            <p style="font-family:Arial, Helvetica, sans-serif;"><b>Email Us :</b> <a href="mailto:info.miten@gmail.com" style="color:white; text-decoration:none;">info.mitenkhokhar@gmail.com</a></p>
+        </div><!--end of lftbx-->
+
+        <div class="rgtbx">
+            <h2 style="font-family:Arial, Helvetica, sans-serif;">Contact Form</h2>
+
+            <form name="myform" method="post" action="account.html">
+                <table width="100%">
+                    <tr>
+                        <td><input type="name" name="name" placeholder="Enter Name *" required></td>
+                    </tr>
+                    <tr>
+                      <td><input type="email" name="email" placeholder="Enter Email *" required></td>
+                    </tr>
+    
+                    <tr>
+                        <td><input type="text" name="number" placeholder="Enter Phone *" required></td>
+                    </tr>
+    
+                    <tr>
+                        <td><input type="text" name="subject" placeholder="Enter Subject *"></td>
+                    </tr>
+    
+                    <tr>
+                        <td><textarea name="message" placeholder="Enter message *"></textarea></td>
+                    </tr>
+    
+    
+                    <tr> 
+                        <td colspan="2"><input type="submit" name="send" value="⏩ Send">
+                        <input type="reset" name="res" value="❓ Reset"></td>
+                    </tr>
+    
+                </table>
+            </form><!--end of form action html post method-->    
+
+        </div><!--end of rgttbx-->
+
+
+    <div class="clearfix"></div>
+
+        <h2 style="padding-top:20px; padding-bottom:15px;font-family:Verdana, Geneva, Tahoma, sans-serif;">Contact with us in Google map</h2>
+        <hr style="border: 2px solid rgb(97, 0, 37);width:50%;margin-bottom: 20px;">
+
+        <center>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.896508900618!2d70.810709!3d22.281909799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959ca0ab6ed92d1%3A0x1fecc677b23e442e!2sSorathiawadi%20Cir%2C%20Rajkot%2C%20Gujarat%20360002!5e0!3m2!1sen!2sin!4v1665316494225!5m2!1sen!2sin" width="100%" height="300" style="border:0;margin-bottom: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </center>
+    </div><!--end of cntbox-->
+</body>
+</html>

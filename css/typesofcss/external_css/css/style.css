@@ -1,0 +1,38 @@
+        * 
+        {
+            margin: 0 auto;
+            padding: 0;            
+        }
+        #div1
+        {
+            width: 70%;
+            height: auto;
+            margin: auto;
+            background-color: rgb(104, 0, 0);
+            color: white;
+            padding: 30px;
+            margin-top: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #div2
+        {
+            width: 70%;
+            height: auto;
+            margin: auto;
+            background-color: rgb(76, 0, 138);
+            color: white;
+            padding: 30px;
+            margin-top: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #div3
+        {
+            width: 70%;
+            height: auto;
+            margin: auto;
+            background-color: rgb(217, 255, 0);
+            color: black;
+            padding: 30px;
+            margin-top: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }

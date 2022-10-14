@@ -1,0 +1,46 @@
+* 
+{
+    margin:0 auto;
+    padding: 0;
+}
+
+
+.myntra-header 
+{
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    width: 100%;
+    height:80px;
+    padding: 5px;
+}
+
+.myntra-silder
+{
+    background-color: lightgray;
+    width: 100%;
+    height: 400px !important;
+}
+
+.myntra-content 
+{  
+    width:100%;
+    height:1000px;
+    background-color:white; 
+}
+
+.myntra-footerone
+{
+    width: 100%;
+    height: 900px;
+    background-color: white; 
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.myntra-footertwo 
+{
+    width: 100%;
+    height: 1200px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;    
+}

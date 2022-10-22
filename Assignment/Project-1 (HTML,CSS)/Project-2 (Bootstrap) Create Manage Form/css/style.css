@@ -1,0 +1,57 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: rgb(138, 0, 206);
+}
+
+.mybgstl 
+{
+    background-color:white;
+    border-radius:10px;
+    box-shadow: 1px 1px 4px black;
+}
+
+.mybgstl img
+{
+    margin-top: 45px;
+}
+
+.btstlmy 
+{
+    margin-left: 35%;
+    margin-top: 15px;
+}
+.myclrstl 
+{
+    color:rgb(165, 165, 165);
+    font-size: 21px;
+    float: left;
+    margin-right: 10px;
+}
+
+.myborbx 
+{
+    color:rgb(165, 165, 165);
+    font-size: 18px;
+    float: right;
+    border: 1px solid lightgray;
+    padding:6px;
+    margin-top: -3px;
+}
+
+.mymgstl 
+{
+    margin: auto;
+    margin-top: 45px;
+}
+
+.edt-exper-mystl
+{
+    border: 0px solid black;
+    width:100%;
+    height:auto;
+    float:left;
+}

@@ -5,14 +5,14 @@
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 <title>Page Title</title>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<!-- css file -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-<link href="css/style.css" rel="stylesheet"> 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-<!-- script file -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+   <!-- css file -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link href="css/style.css" rel="stylesheet"> 
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   <!-- script file -->
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body> 
   <div class="row">
@@ -30,7 +30,7 @@
                 <ul class="nav">
                   <form class="d-flex mg-mystl">
                     <input class="form-control me-3 col-sm-6" type="text" placeholder="Search City">
-                    <button class="btn btn-primary col-sm-4" type="button">Search City</button>
+                    <button class="btn btn-success col-sm-4" type="button">Search City</button>
                   </form>
                   <li class="nav-item">
                     <a class="nav-link" href="#">About us</a>
@@ -43,7 +43,9 @@
                       <li><a class="dropdown-item" href="#">Hindi</a></li>
                     </ul>
                   </li>
-                    <button type="button" class="btn btn-success">Login / Register</button> 
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                    Login / Register
+                  </button>
                 </ul>
               </div>
             </div>
@@ -279,6 +281,7 @@
 
 <!-- start of select watch silder photo car -->
   <!-- Nav tabs -->
+  <a href="" class="btn btn-warning float-end btnmrg-stl">View All</a>
   <ul class="nav nav-tabs" role="tablist">
     <li class="nav-item">
       <a class="nav-link active" data-bs-toggle="tab" href="#home">Recenlty Added</a>
@@ -287,7 +290,6 @@
       <a class="nav-link" data-bs-toggle="tab" href="#menu1">Top Rated</a>
     </li>
   </ul>
-
   <!-- Tab panes -->
   <div class="tab-content">
     <div id="home" class="container-fluid tab-pane active"><br>
@@ -628,13 +630,12 @@
 
 
 
-<div class="row mt-5">
+<div class="row mt-5 mb-5">
 <div class="col-md-12">
 <div class="container">
 
-<div class="row">
-
   <h4 class="pt-4 pb-5 text-center">Most Compared Cars <a href="" class="btn btn-success float-end">Compare to Car</a></h4>
+<div class="row">
 
   <div class="col-md-3 p-2 col-stl mrg-stl">
     <img src="image/silde_img/Mahindra-1.jpg" class="img-fluid img-thumbnail">
@@ -739,21 +740,209 @@
 
 
 
-<div class="container-fluid">
+<div class="forgray">
 <div class="row">
 <div class="col-md-12">
+  <div class="container-fluid">
 
+<div class="row">
+  <div class="col-md-2 mt-5 mb-5">
+    <ul class="fotr-stl">
+      <li><a href="#">EMI Calculator</a></li>
+      <li><a href="#">True Value Advantage</a></li>
+      <li><a href="#">Site Map</a></li>
+      <li><a href="#">Showroom Locator</a></li>
+    </ul>
+    </div><!--end of col-md-2 mt-5 mb-5-->
 
-<div class="row" style="background-color:lightgray;">
-  <div class="col-md-2">
-    <h1>MITEN KHOKHAR</h1>
-    </div>
+    <div class="col-md-2 mt-5 mb-5">
+      <ul class="fotr-stl">
+        <li><a href="#">EMI Calculator</a></li>
+        <li><a href="#">True Value Advantage</a></li>
+        <li><a href="#">Site Map</a></li>
+        <li><a href="#">Showroom Locator</a></li>
+      </ul>
+      </div><!--end of col-md-2 mt-5 mb-5-->
+
+      <div class="col-md-2 mt-5 mb-5">
+        <ul class="fotr-stl">
+          <li><a href="#">EMI Calculator</a></li>
+          <li><a href="#">True Value Advantage</a></li>
+          <li><a href="#">Site Map</a></li>
+          <li><a href="#">Showroom Locator</a></li>
+        </ul>
+        </div><!--end of col-md-2 mt-5 mb-5-->
+
+        <div class="col-md-2 mt-5 mb-5">
+          <ul class="fotr-stl">
+            <li><a href="#">EMI Calculator</a></li>
+            <li><a href="#">True Value Advantage</a></li>
+            <li><a href="#">Site Map</a></li>
+            <li><a href="#">Showroom Locator</a></li>
+          </ul>
+          </div><!--end of col-md-2 mt-5 mb-5-->
+
+          <div class="offset-md-1 col-md-3 mt-5 mb-5">
+            <h5 class="fotblu-stl">Social Media Link Follow :</h5>
+            <ul class="fotr-stl">
+              <a href="https://www.facebook.com/" target="_blank" class="p-1"><h3><i class="bi bi-facebook"></i></a>
+              <a href="https://web.whatsapp.com/" target="_blank" class="p-1"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://www.instagram.com/" target="_blank" class="p-1"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.twitter.com/" target="_blank" class="p-1"><i class="bi bi-twitter"></i></h3></a>
+            </ul>
+            </div><!--end of col-md-2 mt-5 mb-5-->          
+
+<div class="row">
+<div class="col-md-12">
+<div class="container-fluid">
+<p><small class="pb-2">*The content and information available on this website is limited to the sales and services offered by Maruti Suzuki India Limited in the jurisdiction of India only.</small></p>
+<p><big class="pb-2"><b>*Caution: Beware of Fake Promotions or Offers</b></big></p>
+<small>Please do not believe or engage with any promotional messages (SMS) or Web-link which ask you to click on a link and fill in your details to win a Maruti Suzuki car. These SMS or Web-link based offers are fake, and Maruti Suzuki India Limited bears no liability or responsibility whatsoever for any such communication which is fraudulent or misleading in nature.</small>
+
+</div><!--end of container-fluid-->
+</div><!--end of col md 12-->
 </div><!--end of row-->
-
 
 </div><!--end of container-fluid-->
 </div><!--end of col-md-12-->
 </div><!--end of row-->
+
+<footer class="foter-colrstl mt-4 footer-borstl">
+  <p class="p-3 text-center">All Rights Reserved. © 2019 Maruti Suzuki India Limited</p>
+</footer>
+</div><!--end of row-->
+
+
+</div><!-- end of forgray -->
+
+
+
+
+<!-- The Modal -->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+       
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-bs-toggle="tab" href="#home">Login</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#menu">Register</a>
+    </li>
+  </ul>          
+
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="home" class="container tab-pane active"><br>
+      <form name="f4" method="get" action="">
+          <div class="input-group">
+            <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
+            <input type="text" class="form-control" placeholder="Username">
+          </div><br>
+        
+          <div class="input-group">
+            <span class="input-group-text"><i class="bi bi-lock-fill"></i></span>
+            <input type="text" class="form-control" placeholder="Your Password">
+          </div><br>
+
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something">
+            <label class="form-check-label">Remember Password</label>
+            <a href="" class="float-end">Forget Password</a>
+          </div>
+          <input type="submit" name="submit" class="btn btn-info mt-4 mb-3 mgright-lofm" value="Submit">
+        <input type="reset" name="clean" class="btn btn-danger mt-4 mb-3 mgright-lofm" value="Clear">
+      </form>
+    </div>
+    <div id="menu" class="container tab-pane fade"><br>
+      <form name="f5" method="get" action="">
+        <div class="input-group">
+          <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
+          <input type="text" class="form-control" placeholder="Enter First Name">
+
+          <input type="text" class="form-control" placeholder="Enter Last Name">
+          <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
+        </div><br>        
+      
+        <div class="input-group">
+          <span class="input-group-text"><i class="bi bi-pin-map-fill"></i></span>
+          <textarea type="text" class="form-control" placeholder="Your Password"></textarea>
+        </div><br>
+
+        <div class="input-group">
+          <span class="input-group-text"><i class="bi bi-geo-alt-fill"></i></span>
+          <select class="form-select">
+            <option>Select Your City</option>
+            <option>Rajkot</option>
+            <option>Ahmadabad</option>
+            <option>Surat</option>
+            <option>Dehli</option>
+            <option>Mumbai</option>
+          </select>
+        </div><br>
+
+
+        <div class="input-group">
+          <span class="input-group-text"><i class="bi bi-geo-fill"></i></span>
+          <select class="form-select">
+            <option>Select Your State</option>
+            <option>Rajkot, India</option>
+            <option>Ahmadabad, India</option>
+            <option>Surat, India</option>
+            <option>Dehli, India</option>
+            <option>Mumbai, India</option>
+          </select>
+        </div><br>
+
+
+        <div class="input-group">
+          <span class="input-group-text"><i class="bi bi-envelope-paper-fill"></i></i></span>
+          <input type="text" class="form-control" placeholder="Enter Your Email Id">
+        </div><br>        
+
+        <div class="input-group">
+          <span class="input-group-text"><i class="bi bi-phone-vibrate-fill"></i></span>
+          <input type="text" class="form-control" placeholder="Enter Your Mobile No.">
+
+          <input type="text" class="form-control" placeholder="Enter Your Zip Number">
+          <span class="input-group-text"><i class="bi bi-map-fill"></i></span>
+        </div><br>        
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something">
+          <label class="form-check-label">Confirm Submited</label>
+        </div>
+
+        <input type="submit" name="submit" class="btn btn-info mt-4 mb-3 mgright-lofm" value="Submit">
+        <input type="reset" name="clean" class="btn btn-danger mt-4 mb-3 mgright-lofm" value="Clear">
+    </form>
+    </div>
+    </div>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
 
 
 </body>

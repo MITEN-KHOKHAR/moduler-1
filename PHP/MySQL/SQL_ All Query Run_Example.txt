@@ -578,8 +578,7 @@ B) Complex views :(When we create a views on multiple column i.e called Complex 
 -------------------------------------------------------------------------------------------------------
 
 Sir Example : create view user_multi_view as SELECT user_id,username,password,country_id,state_id,city_id from flip_user; 
-My Example : create view holdy_user as SELECT user_id,userName,passWord,couty_id,state_id,city_id from holdy_user; 
-
+My Example : create view amazon_my_views as SELECT user_id,userName,passWord,country_id,state_id,city_id from holdy_user; 
 
 ---------------------------------------------------------------------------
 Sir Example : DELETE from user_multi_view where username='brijesh';

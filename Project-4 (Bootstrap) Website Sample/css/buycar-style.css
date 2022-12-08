@@ -1,0 +1,11 @@
+body { margin: 0; padding: 0; overflow-x: hidden; box-sizing: border-box; background-color: rgb(234, 231, 231); }
+
+/* STAR OF INDEX CSS */
+.colur-mystl { background-color: white !important; }
+.myboxlft-shop { background-color:white; padding:30px; box-shadow: 2px 0px 3px gray !important; }
+.myrefsh-fntstl { font-size: 15px; margin-top: 6px; line-height: 0px; color:rgb(0, 0, 157); }
+.mrglink-stl { line-height: 60px; margin-left: 20px; }
+.btncont-stl { font-size: 13px; margin-top: -4px; }
+.ctr-rwmystl { margin-left:10px; margin-right:20px !important; margin-bottom: 25px; width:30%; }
+
+/* END OF INDEX CSS */

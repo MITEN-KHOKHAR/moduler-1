@@ -1,0 +1,24 @@
+body { margin: 0; padding: 0; overflow-x: hidden; box-sizing: border-box; }
+
+/* STAR OF INDEX CSS */
+.colur-mystl { background-color: white !important;  }
+.mg-mystl { margin-right: 130px; }
+.mybord-stl { border-bottom: 1px solid lightgray; }
+.mycol-stl { background: #000368 !important; }
+.coltesti-stl { background: lightgray !important; }
+.mynav-stl { padding: 3px; }
+.mylig-stl { padding: 5px !important; line-height: 40px !important; }
+.star-clstl { color:orange; }
+.col-stl { border:1px solid lightgray; }
+.bxbormrg-stl { border-radius:10px; border:1px solid lightgray; padding:8px; }
+.bxborstl-review { border-radius:10px; border:1px solid rgb(174, 173, 173); background-color:white;  padding:20px; }
+.forgray { background-color:lightgray; border-top: 10px solid #c3bfbf; }
+.fotr-stl { width: auto; height: auto; }
+.fotr-stl li { list-style-type: none; padding-bottom: 12px; }
+.fotr-stl li a { text-decoration: none; color:black; }
+.foter-colrstl { background-color: rgb(226, 226, 226); }
+.footer-borstl { border-top: 1px solid rgb(187, 186, 186); padding-bottom: 0px; }
+.fotblu-stl { color:darkblue; }
+.btnmrg-stl { margin-right:25px; }
+.mgright-lofm { margin-right: 15px; }
+/* END OF INDEX CSS */
